@@ -12,12 +12,12 @@
 ---
 
 ### Day 1 체크리스트
-- [ ] C++ Hello World 실행 완료 
-- [ ] Rust Hello World 실행 완료 
-- [ ] 차이점 비교 정리 완료 
-- [ ] 복습 루틴 완료 
-- [ ] GitHub에 파일 업로드 완료 
-- [ ] README 작성 완료 
+- [x] C++ Hello World 실행 완료 
+- [x] Rust Hello World 실행 완료 
+- [x] 차이점 비교 정리 완료 
+- [x] 복습 루틴 완료 
+- [x] GitHub에 파일 업로드 완료 
+- [x] README 작성 완료 
 
 ---
 
