@@ -27,3 +27,10 @@
 - 8월: MQTT 센서 시뮬레이터 예제 (Rust/C++)
 - 10월: CLI 로그 도구 예제
 - 12월: 통합 MQTT 시스템 코드
+
+---
+
+## 📖 참고 자료
+- C++: 홍정모의 따라하며 배우는 C++
+- Rust: 러스트 프로그래밍 공식 가이드 제2판
+- IoT: https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.ko.md (IoT for Beginners)
