@@ -12,7 +12,7 @@
 ---
 
 ### Day 1 체크리스트
-- [v] C++ Hello World 실행 완료 
+- [ ] C++ Hello World 실행 완료 
 - [ ] Rust Hello World 실행 완료 
 - [ ] 차이점 비교 정리 완료 
 - [ ] 복습 루틴 완료 
