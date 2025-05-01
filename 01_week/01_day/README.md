@@ -1,6 +1,8 @@
 # Week 1
 
-## Day 1 체크리스트
+## Day 1: Hello world in C++ and Rust
+
+### Day 1 체크리스트
 - C++ Hello World 실행 완료 [O]
 - Rust Hello World 실행 완료 [O]
 - 차이점 비교 정리 완료 [O]
