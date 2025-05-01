@@ -27,10 +27,12 @@
 
 ---
 
-### 차이점
-| 차이점 | C++ | Rust |
+### 구조 비교 요약
+| 항목 | C++ | Rust |
 |:-|:-|:-|
-| main 구성 방식 | int가 앞에 붙는다. return 0; 가 붙는다. | fn이 앞에 붙는다. return 이 없다. |
-| 출력 방법 | iostream 안에 있는 cout으로 출력한다. <br>객체를 사용한다. <br>ex) cout << "Hello"; | println!으로 출력한다. <br>!를 통해 매크로를 호출한다. <br>ex) println!("Hello"); |
-| 헤더 파일 | #include 를 통해 넣는다. <br> cout을 사용하기 위해 `<iostream>`이 들어간다. | 따로 적지 않는다. |
+| main 함수 | int main() | fn main() |
+| 출력 방법 | `<iostream>` 안에 있는 cout으로 출력한다. <br>객체를 사용한다. <br>ex) cout << "Hello"; | println!으로 출력한다. <br>!를 통해 매크로를 호출한다. <br>ex) println!("Hello"); |
 | 컴파일러 | gcc | rustc |
+| 줄바꿈 | std::endl or \n | 자동 |
+| 리턴 | return 0; | 생략 가능 |
+| 세미콜론 | 필수 | 필수 |
