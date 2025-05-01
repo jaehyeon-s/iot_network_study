@@ -31,6 +31,6 @@
 ---
 
 ## 📖 참고 자료
-- C++: 홍정모의 따라하며 배우는 C++
-- Rust: 러스트 프로그래밍 공식 가이드 제2판
+- C++: 홍정모의 따라하며 배우는 C++ (인프런 강의)
+- Rust: 러스트 프로그래밍 공식 가이드 제2판 (교재)
 - IoT: https://github.com/microsoft/IoT-For-Beginners/blob/main/translations/README.ko.md (IoT for Beginners)
