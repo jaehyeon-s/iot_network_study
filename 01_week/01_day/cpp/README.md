@@ -5,6 +5,7 @@
 ## 배운 점
 - iostream, cout 사용법
 - main 함수의 구조
+- 확장자 명(.cpp)
 
 ---
 
