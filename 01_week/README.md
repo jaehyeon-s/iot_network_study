@@ -61,4 +61,8 @@
 ### 구조 비교 요약
 | 항목 | C++ | Rust |
 |:-|:-|:-|
-| 변수 선언 | `int a, double a` | `let a, let mut a` |
+| 변수 선언 | `int a = 10` | `let a = 10` |
+| 가변성 | 기본 가변 | 기본 불변, `let mut` 사용해야 가변 |
+| 타입 추론 | auto a = 10; | let a = 10; |
+| 상수 | const int X = 10; | const X: i32 = 10; |
+| Shadowing | 없음 | 있음 |
