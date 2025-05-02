@@ -12,10 +12,10 @@ fn main() {
 
     let f: bool = true;  // 불리언
 
-    const G: i32 = 100;
+    const G: i32 = 100;  // 상수
 
     let x = 12;
-    let x = x + 1;
+    let x = x + 1;  // 섀도잉
 
     println!("{a}");
     println!("{b}");
