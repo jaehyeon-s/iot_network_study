@@ -3,8 +3,8 @@
 ---
 
 ## 배운 점
-- main 함수의 구조 (fn main())
-- 출력 방식 (println!)
+- main 함수의 구조
+- println! 사용
 - 확장자 명 (.rs)
 
 ---
