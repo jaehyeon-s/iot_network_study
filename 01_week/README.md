@@ -30,9 +30,9 @@
 | 항목 | C++ | Rust |
 |:-|:-|:-|
 | main 함수 | int main() | fn main() |
-| 출력 방법 | `<iostream>` 안에 있는 cout으로 출력한다. <br>객체를 사용한다. <br>ex) cout << "Hello"; | println!으로 출력한다. <br>!를 통해 매크로를 호출한다. <br>ex) println!("Hello"); |
+| 출력 방법 | `<iostream>` 안에 있는 cout으로 출력한다. <br>객체를 사용한다. <br>ex) `cout << "Hello";` | `println!`으로 출력한다. <br>!를 통해 매크로를 호출한다. <br>ex) `println!("Hello");` |
 | 컴파일러 | gcc | rustc |
-| 줄바꿈 | std::endl or \n | 자동 |
+| 줄바꿈 | `std::endl` or \n | 자동 |
 | 리턴 | return 0; | 생략 가능 |
 | 세미콜론 | 필수 | 필수 |
 
