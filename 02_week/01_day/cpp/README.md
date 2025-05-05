@@ -4,5 +4,6 @@
 
 ## 배운 점
 - cin, getline() 사용 방법
+- cin 후 getline() 사용 시 주의 사항
 - if-else 사용 방법
 - 계산기 만들 때 고려해야할 사항들
