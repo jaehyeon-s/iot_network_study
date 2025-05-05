@@ -8,7 +8,7 @@ fn main() {
     println!("어떤 연산을 하실 건가요(+, -, *, /, %)");
     io::stdin()
         .read_line(&mut oper)
-        .expect("없는 연산입니다.");
+        .expect("Failed to read line");
 
     let oper = oper.trim().chars().next().unwrap().expect("연산자를 입력해주세요");
 
