@@ -52,6 +52,10 @@ fn main() {
         }
         result = num1 % num2;
     }
+    else {
+        println!("계산기에 없는 연산입니다.");
+        return;
+    }
 
     println!("계산 결과: {num1}, {num2}, {result}");
 }
