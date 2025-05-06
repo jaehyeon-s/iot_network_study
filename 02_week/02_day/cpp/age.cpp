@@ -1,24 +1,24 @@
 #include <iostream>
 using namespace std;
 
-// ³ªÀÌ·Î ºĞ·ù
+// ë§Œ ë‚˜ì´ë¡œ ë¶„ë¥˜
 int main() {
 
 	int age;
 
-	cout << "¸¸ ³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ";
+	cout << "ë§Œ ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ";
 	cin >> age;
 
 	if (age >= 0 && age <= 12)
-		cout << "¾î¸°ÀÌ";
+		cout << "ì–´ë¦°ì´";
 	else if (age >= 13 && age <= 18)
-		cout << "Ã»¼Ò³â";
+		cout << "ì²­ì†Œë…„";
 	else if (age >= 19 && age <= 64)
-		cout << "¼ºÀÎ";
+		cout << "ì„±ì¸";
 	else if (age >= 65)
-		cout << "³ëÀÎ";
+		cout << "ë…¸ì¸";
 	else
-		cout << "³ªÀÌ¿¡ À½¼ö´Â ÀÔ·ÂµÉ ¼ö ¾ø½À´Ï´Ù.";
+		cout << "ë‚˜ì´ì— ìŒìˆ˜ëŠ” ì…ë ¥ë  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.";
 
 	return 0;
 }
