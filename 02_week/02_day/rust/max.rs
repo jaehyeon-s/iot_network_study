@@ -7,7 +7,7 @@ fn main() {
     
     let mut num1 = String::new();
 
-    println!("첫번째 숫자를 입력하세요");
+    println!("첫번째 숫자를 입력해주세요");
     io::stdin()
         .read_line(&mut num1)
         .expect("Failed to read line");
@@ -15,7 +15,7 @@ fn main() {
     
     let mut num2 = String::new();
 
-    println!("두번째 숫자를 입력하세요");
+    println!("두번째 숫자를 입력해주세요");
     io::stdin()
         .read_line(&mut num2)
         .expect("Failed to read line");
@@ -23,7 +23,7 @@ fn main() {
 
     let mut num3 = String::new();
 
-    println!("세번째 숫자를 입력하세요");
+    println!("세번째 숫자를 입력해주세요");
     io::stdin()
         .read_line(&mut num3)
         .expect("Failed to read line");
