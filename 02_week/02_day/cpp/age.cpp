@@ -6,7 +6,7 @@ int main() {
 
 	int age;
 
-	cout << "만 나이를 입력하세요: ";
+	cout << "만 나이를 입력해주세요: ";
 	cin >> age;
 
 	if (age >= 0 && age <= 12)
