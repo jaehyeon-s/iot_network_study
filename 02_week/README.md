@@ -95,4 +95,4 @@
 | 반복문 기본 구조 | `while`, `for` | `while`, `for`, `loop` |
 | 중첩 반복문 | 가능 | 가능 |
 | 반복문 내 조건문 | 가능 (`if`, `else if`, `else`) | 가능 (`if`, `else if`, `else`) |
-| 무한 루프 | `while(true)`, `while(1)`, `for(;;)` | `loop {}`, `for _ in 0..` |
+| 무한 루프 | `while(true)`, `while(1)`, `for(;;)` | `loop {}` 권장, `for _ in 0..` |
