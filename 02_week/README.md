@@ -108,3 +108,31 @@
 | 크기 확인 | `sizeof(arr) / sizeof(int)` | `arr.len()` |
 | 최대/최소값 | `if (arr[i] > max)` | `if arr[i] > max {}` |
 | 평균 계산 | `sum / size` | `sum as f64 / arr.len() as f64` |
+
+---
+
+## Day 5 학습 목표 (2025/5/9)
+- 랜덤 숫자 생성 학습 (C++, Rust)
+- 랜덤 숫자 맞추기 게임 구현
+- C++과 Rust의 랜덤 함수 비교
+- 재시작 기능 및 입력 검증 추가 구현
+
+### Day 5 체크리스트
+- [x] 차이점 비교 정리 완료 
+- [x] 복습 루틴 완료 
+- [x] GitHub에 파일 업로드 완료 
+- [x] README 작성 완료
+- [x] 랜덤 숫자 맞추기 게임 구현
+- [ ] 재시작 기능 구현 및 입력 검증 완료
+
+### 복습 루틴
+- C++ 랜덤 숫자 생성 키워드 말하기 (`random_device`, `mt19937`, `uniform_int_distribution`)
+- Rust 랜덤 숫자 생성 키워드 말하기 (`rand` 크레이트, `use rand::Rng`, `rand::thread_rng().gen_range(시작..=끝)`)
+
+### 구조 비교 요약
+| 항목 | C++ | Rust |
+|:-|:-|:-|
+| 랜덤 생성기 | `random_device`, `mt19937` | `rand::thread_rng` |
+| 범위 지정 | `uniform_int_ditribution` | `gen_range()` |
+| 입력 검증 | `cin.fail()`, `cin.clear()` | `match` 또는 `if let` |
+| 무한 루프 | `while(true)` | `loop` |
