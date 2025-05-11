@@ -4,7 +4,7 @@ fn main() {
 
     println!("랜덤 10자리 비밀번호 생성기");
 
-    let pwd = generate_random_pwd();
+    let pwd = generateRandomPwd();
 
     for ch in pwd {
         print!("{}", ch);
@@ -13,7 +13,7 @@ fn main() {
     println!();
 }
 
-fn generate_random_pwd() -> [char; 10] {
+fn generateRandomPwd() -> [char; 10] {
 
     let len: usize = 10;
     let mut pwd: [char; 10] = ['_'; 10];
