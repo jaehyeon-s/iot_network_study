@@ -161,4 +161,4 @@
 |:-|:-|:-|
 | 함수 생성 | 타입명 함수명 (파라미터) `int generateRandomPwd(char *pwd, int len)` | fn 함수명 (파라미터) `fn generateRandomPwd()` |
 | 반환 방식 | 선언 타입에 맞게 마지막에 `return 타입;` | 타입은 함수 선언할 때 `-> [char; 10]` 리턴은  `return` 없이 맨 마지막에 적기 |
-| 함수 정의 위치애 따른 함수 원형 선언 | `main` 함수 앞: 원형 선언 X <br>`main` 함수 뒤: 원형 선언 O | 위치 상관없음 |
+| 함수 정의 위치에 따른<br> 함수 원형 선언 | `main` 함수 앞: 원형 선언 X <br>`main` 함수 뒤: 원형 선언 O | 위치 상관없음 |
