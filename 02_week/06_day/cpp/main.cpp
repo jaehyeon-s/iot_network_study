@@ -2,7 +2,7 @@
 #include <random>
 using namespace std;
 
-void generate_random_pwd(char *pwd, int len) {
+void generateRandomPwd(char *pwd, int len) {
 
 	random_device rd;
 	mt19937 mt(rd());
@@ -20,7 +20,7 @@ void generate_random_pwd(char *pwd, int len) {
 	}
 }
 
-void print_pwd(const char *pwd, int len) {
+void printPwd(const char *pwd, int len) {
 	for (int i = 0; i < len; i++)
 		cout << pwd[i];
 	cout << '\n';
@@ -30,10 +30,10 @@ int main() {
 	const int len = 10;
 	char pwd[len];
 
-	cout << "·£´ý 10ÀÚ¸® ºñ¹Ð¹øÈ£ »ý¼º±â" << '\n';
+	cout << "ëžœë¤ 10ìžë¦¬ ë¹„ë°€ë²ˆí˜¸ ìƒì„±ê¸°" << '\n';
 
-	generate_random_pwd(pwd, len);
-	print_pwd(pwd, len);
+	generateRandomPwd(pwd, len);
+	printPwd(pwd, len);
 
 	return 0;
 }
