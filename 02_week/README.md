@@ -136,3 +136,29 @@
 | 범위 지정 | `uniform_int_ditribution` | `gen_range()` |
 | 입력 검증 | `cin.fail()`, `cin.clear()` | `match` 또는 `if let` |
 | 무한 루프 | `while(true)` | `loop` |
+
+---
+
+## Day 6 학습 목표 (2025/5/10)
+- 함수 생성 및 리팩토링 학습 (C++, Rust)
+- 암호 생성기 프로그램 구현
+- C++과 Rust의 함수 구조 비교
+- 포인터(C++)와 배열(Rust)을 이욯한 함수 분리 연습
+
+### Day 6 체크리스트
+- [x] 차이점 비교 정리 완료 
+- [x] 복습 루틴 완료 
+- [x] GitHub에 파일 업로드 완료 
+- [x] README 작성 완료
+- [x] 암호 생성기 기본 버전 (고정 길이 10자리) 완성
+
+### 복습 루틴
+- C++ 함수 생성 및 반환 방식
+- Rust 함수 생성 및 반환 방식
+
+### 구조 비교 요약
+| 항목 | C++ | Rust |
+|:-|:-|:-|
+| 함수 생성 | 타입명 함수명 (파라미터) `int generateRandomPwd(char *pwd, int len)` | fn 함수명 (파라미터) `fn generateRandomPwd()` |
+| 반환 방식 | 선언 타입에 맞게 마지막에 `return 타입;` | 타입은 함수 선언할 때 `-> [char; 10]` 리턴은  `return` 없이 맨 마지막에 적기 |
+| 함수 정의 위치애 따른 함수 원형 선언 | `main` 함수 앞: 원형 선언 X <br>`main` 함수 뒤: 원형 선언 O | 위치 상관없음 |
